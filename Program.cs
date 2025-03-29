@@ -15,7 +15,7 @@ custo = Convert.ToDouble(Console.ReadLine());
 
 custoMes = consumo * horas * custo;
 
-Console.Write($"Custo estimado: {custoMes:F2}");
+Console.Write($"\nCusto estimado do mês: R${custoMes:F2}");
 
 
 
